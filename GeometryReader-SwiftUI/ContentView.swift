@@ -16,22 +16,34 @@ struct ContentView: View {
                 Rectangle()
                     .foregroundColor(.green)
                     .frame(width: geometry.size.width, height: geometry.size.height/2)
+                    .onTapGesture {
+                        print("width: \(geometry.size.width), height: \(geometry.size.height/2)")
+                    }
                 
                 HStack(spacing: 0.0) {
                     Rectangle()
                         .foregroundColor(.purple)
                         .frame(width: geometry.size.width/2, height: geometry.size.height/2)
+                        .onTapGesture {
+                            print("width: \(geometry.size.width/2), height: \(geometry.size.height/2)")
+                        }
                     
                     Rectangle()
                         .foregroundColor(.orange)
                         .frame(width: geometry.size.width/2, height: geometry.size.height/2)
+                        .onTapGesture {
+                            print("width: \(geometry.size.width/2), height: \(geometry.size.height/2)")
+                        }
                 }
             }
             
             Rectangle()
                 .foregroundColor(.red)
-                .frame(width: geometry.size.width*2/3, height: geometry.size.width*1/4)
-                .position(x: geometry.size.width*1/2, y: geometry.size.height*1/4)
+                .frame(width: geometry.size.width*2/3, height: geometry.size.width/4)
+                .position(x: geometry.size.width/2, y: geometry.size.height/4)
+                .onTapGesture {
+                    print("width: \(geometry.size.width*2/3), height: \(geometry.size.height/4)")
+                }
             
         }.ignoresSafeArea()
     }
