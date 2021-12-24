@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E78935B92775CAD500B7686C /* DivisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78935B82775CAD500B7686C /* DivisionView.swift */; };
 		E7B692952768DB0000D13533 /* GeometryReader_SwiftUI_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B692942768DB0000D13533 /* GeometryReader_SwiftUI_App.swift */; };
 		E7B692972768DB0000D13533 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B692962768DB0000D13533 /* ContentView.swift */; };
 		E7B692992768DB0100D13533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B692982768DB0100D13533 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E78935B82775CAD500B7686C /* DivisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivisionView.swift; sourceTree = "<group>"; };
 		E7B692912768DB0000D13533 /* GeometryReader-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeometryReader-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B692942768DB0000D13533 /* GeometryReader_SwiftUI_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader_SwiftUI_App.swift; sourceTree = "<group>"; };
 		E7B692962768DB0000D13533 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				E7B692942768DB0000D13533 /* GeometryReader_SwiftUI_App.swift */,
 				E7B692962768DB0000D13533 /* ContentView.swift */,
+				E78935B82775CAD500B7686C /* DivisionView.swift */,
 				E7B692982768DB0100D13533 /* Assets.xcassets */,
 				E7B6929A2768DB0100D13533 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7B692972768DB0000D13533 /* ContentView.swift in Sources */,
+				E78935B92775CAD500B7686C /* DivisionView.swift in Sources */,
 				E7B692952768DB0000D13533 /* GeometryReader_SwiftUI_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
